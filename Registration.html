@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:rgb(165, 42, 42);
+        }
+        table{
+            background-color:pink;
+            margin: 5%;
+            padding-top: 2%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 2%;
+            align:left;
+        }
+        th{
+            text-align: left;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Regstration Form</h1>
+        <form>
+    <table>
+        <tr><th><h3>First Name  </h3>   </th><td><input type="text" placeholder="Enter your first name"></td></tr>
+        <tr><th><h3>Last Name   </h3>     </th><td><input type="text" placeholder="Enter your last name"></td></tr>
+        <tr><th><h3>Email   </h3>     </th><td><input type="email" placeholder="Enter your email"></td></tr>
+        <tr><th><h3>  <span>Phone No  </span></h3></th><td><input type="number" placeholder="Enter your phone number"></td></tr>
+        <tr><th><h3>  <span>Mobile No  </span></h3></th><td><input type="number" placeholder="Enter your mobile number"></td></tr>
+        <tr><th><h3>  <span >City  </span></h3></th><td><input type="text" placeholder="Enter your city"></td></tr>
+        <tr><th><h3>  <span ">State </span></h3></th><td>
+    
+            <select id="State">
+                <option>Select State</option>
+            <option>Maharastra</option>
+            <option>Karnatka</option>
+            <option>Goa</option>
+            <option>Gujrat</option>
+        
+        </select></td></tr>
+        <tr><th><h3>  <span>Address   </span></h3></th><td><textarea placeholder="Enter your address"></textarea></td></tr>
+        <tr>
+            <td><label for="gender"><h3>Gender:</h3></label></td>
+            <td>Male: <input type="radio" name="gender" value="male">
+              Female: <input type="radio" name="gender" value="female">
+              Other: <input type="radio" name="gender" value="other"></td>
+          </tr>
+<tr><th><h1>  <span>Password   </span></h1></th><td><input type="password" placeholder="Enter your password"></td></tr>
+
+
+
+
+
+<tr><th><h1>  <span>Technology  </span></h1></th><td>
+    <label for="Java" >Java</label>
+    <input type="checkbox" id="HTML">
+    <label for="Javascript" >Javascript</label>
+    <input type="checkbox" id="Javascript">
+    <label for="Javascript" >Javascript</label>
+    <input type="checkbox" id="CSS">
+</td></tr>
+
+<tr><th><h1>Hobbies  </h1></th><td>
+
+    <select id="hobbies" multiple>
+        <optgroup label="Outside">
+    <option>Playing Cricket</option>
+    <option>Playing Tennis</option>
+</optgroup>
+    <optgroup label="In home">
+    <option>Watching Webseries</option>
+    <option>reading books</option>
+    <option>Cooking</option>
+</optgroup>
+    <option></option>
+
+</td></tr>
+
+<tr><th><button type="submit" value="Submit">Submit</button></th>
+   <td> 
+       
+        <input type="reset" value="Reset">
+        
+    </td>
+
+    
+  </tr>
+
+
+        </table>
+    </form>
+        </center>
+</body>
+</html>
